@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(195, 219, 219);
+}
+
+
+header{
+    nav h3 {
+        font-family: 'Libre Baskerville', serif;;
+        font-size: 40px;
+        letter-spacing: 4px;
+        color: rgb(53, 30, 30);
+        margin: 40px;
+        cursor: pointer;
+        
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 139, 62);
+    
+    
+    
+    
+}
+
+.navbar{
+    list-style-type: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px;
+}
+ 
+.navbar a{
+    color: rgb(255, 136, 0);
+    
+    
+
+}
+
+.navbar a:hover{
+    color: rgb(247, 224, 149);
+    font-size: 20px;
+    text-decoration: none;
+}
+}
+
+main {
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+
+    img:hover{
+        opacity: 0.6;
+        transition: 0.3s;
+    }
+
+    .container{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            text-align: center; 
+        }
+    }
+
+   
+    .container2{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-top:40px;
+        
+
+        div{
+            
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+    }
+
+}   
+
+}
+ 
+
+
+ footer {
+     h2 {
+        text-align: center;
+     }
+         
+     
+
+     p {
+         text-align: center;
+
+     }
+    } 
